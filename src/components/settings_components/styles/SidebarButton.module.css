@@ -1,0 +1,20 @@
+.button {
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    color: white;
+    background: none;
+    border: none;
+    height: 7vh;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.button:active {
+    color: rgba(255, 255, 255, .7);
+    transform: translateY(-4px);
+    transition: all 0.1s ease;
+}
